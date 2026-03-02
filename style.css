@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Fundo estilo Pokémon */
+    background-image: url("https://wallpapercave.com/wp/wp2599594.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    background-color: #ffcc00;
+    width: 350px;
+    min-height: 500px;
+    border-radius: 25px;
+    border: 6px solid #1e3a8a;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.ataques {
+    margin-top: 20px;
+    font-weight: bold;
+}
