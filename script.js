@@ -10,15 +10,15 @@ async function buscarPokemon() {
         const resposta = await fetch(`https://pokeapi.co/api/v2/pokemon/${valor}`);
         const dados = await resposta.json();
 
-        // Nome + número
+       
         document.getElementById("pokemonInfo").innerText =
             `${dados.name} #${dados.id}`;
 
-        // GIF animado (generation V)
+        
         document.getElementById("pokemonImg").src =
             dados.sprites.versions["generation-v"]["black-white"].animated.front_default;
 
-        // Ataques
+       
         document.getElementById("ataque1").innerText =
             `ATAQUE 1: ${dados.abilities[0].ability.name.toUpperCase()}`;
 
